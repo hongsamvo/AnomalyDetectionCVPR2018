@@ -1,8 +1,8 @@
 import os
 import glob
 import numpy as np
-C3D_path = "/home/hongsam/PycharmProjects/Keras_CrashDetection/features_10thMar/Abnormal_features/"
-C3D_path_seg = "/home/hongsam/PycharmProjects/Keras_CrashDetection/features10thMar_32/Abnormal_features/"
+C3D_path = "/features_10thMar/Abnormal_features/"
+C3D_path_seg = "/features10thMar_32/Abnormal_features/"
 if not os.path.exists(C3D_path_seg):
     os.mkdir(C3D_path_seg)
 
